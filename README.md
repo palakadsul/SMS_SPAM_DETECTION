@@ -4,7 +4,7 @@ Project Overview
 
 This project implements an end-to-end machine learning pipeline to classify SMS messages as Spam or Ham using ensemble learning techniques. The work is aligned with the syllabus topics Combining Classifiers, Boosting, Decision Stumps, and K-Fold Cross Validation.
 
-Objective
+Objective:-
 
 To build, evaluate, and compare:
 
@@ -16,7 +16,7 @@ A boosting model using AdaBoost with decision stumps
 
 and to identify the most effective model for SMS spam classification.
 
-Dataset
+Dataset:-
 
 Source: UCI Machine Learning Repository
 
@@ -26,13 +26,13 @@ File Used: SMSSpamCollection
 
 Format: Tab-separated text file
 
-Columns
+Columns:-
 
 label – spam or ham
 
 message – SMS text
 
-Methodology
+Methodology:-
 1. Data Preprocessing
 
 Loaded the dataset using Pandas
@@ -118,11 +118,11 @@ Predicted
 
 Probability
 
-Final Recommendation
+Final Recommendation:-
 
 Based on Stratified 5-Fold Cross Validation, the Soft Voting Classifier achieved the best balance of precision, recall, F1-score, and ROC-AUC. Soft voting effectively combines probabilistic outputs from multiple base learners, resulting in stable and robust performance. Therefore, Soft Voting is recommended as the most effective combining strategy for SMS spam classification.
 
-Technologies Used
+Technologies Used:-
 
 Python
 
